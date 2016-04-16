@@ -18,6 +18,8 @@ class game {
 	private:
 		int ** board;
 		int turn();
+		void rotate_board(bool reverse);
+		void compute();
 		static const int board_rows = 4;
 		static const int board_cols = 4;
 		int empty;
